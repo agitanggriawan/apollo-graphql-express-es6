@@ -1,0 +1,24 @@
+{
+  "name": "demo-es6",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-cache-redis": "^3.3.1",
+    "apollo-server-core": "^3.6.3",
+    "apollo-server-express": "^3.6.3",
+    "apollo-server-plugin-response-cache": "^3.5.2",
+    "express": "^4.17.2",
+    "graphql": "^16.3.0",
+    "install": "^0.13.0",
+    "ioredis": "^5.0.2",
+    "npm": "^8.5.0"
+  }
+}
